@@ -1,13 +1,13 @@
 # TODO:
-# Cinema4D自体を、強制終了しないで停止できる
-# try catchで、エラー時に、カメラ位置を初期状態に戻す
+# Cinema4D自体を、強制終了しないで停止可能にする
+# エラー時に、カメラ位置を初期状態に戻す
 # カメラ取得後の、camera object type check
-# SaveFolderOpenを、Windows対応する
+# SaveFolderOpenの、Windows対応
 #
 # Usage:
-# 前準備として、ターゲットカメラを作成し、「main_target_camera」と名前をつけ、ターゲットカメラのターゲット設定を正しく行っておく
+# 1、前準備として、Cinema4Dで、ターゲットカメラを作成し、「main_target_camera」と名前をつけ、ターゲット設定を行っておく
 #
-# another way
+# 他の方法:
 # 複数のカメラアングルを一度にレンダリング
 # https://www.youtube.com/watch?v=9AHS5y6avSg
 
