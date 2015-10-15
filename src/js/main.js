@@ -92,7 +92,7 @@ function createImageContainer()
 
     var spriteSheet = new createjs.SpriteSheet({
         images: images,
-        frames: { width: 640, height: 480, count: maxFrame },
+        frames: { width: 640, height: 480, count: maxFrame }
     });
 
     imageSprite = new createjs.Sprite(spriteSheet);
