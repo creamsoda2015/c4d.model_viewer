@@ -23,7 +23,7 @@ function init()
     while(i < maxFrame)
     {
         id  = 'frame_' + zfill(i, 3);
-        url = '/frame/' + id + '.jpg';   
+        url = '/src/frame/' + id + '.jpg';   
         imageUrls.push(url);
         manifest.push({src: url, type:"image", id: id});
         i = i + unitFrame;
