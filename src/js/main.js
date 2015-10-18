@@ -7,7 +7,7 @@ var prePosX       = 0;
 var imageUrls     = [];
 var tempFrame     = 0;
 var maxFrame      = 360;
-var unitFrame     = 12;
+var unitFrame     = 1;
 var frameRate     = 24;
 var maxConn       = 5;
 
