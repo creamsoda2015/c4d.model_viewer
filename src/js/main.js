@@ -23,7 +23,7 @@ function init()
     while(i < maxFrame)
     {
         id  = 'frame_' + zfill(i, 3);
-        url = '/c4d.model_viewer//src/frame/' + id + '.jpg';   
+        url = '/c4d.model_viewer//src/frame/' + id + '.png';
         imageUrls.push(url);
         manifest.push({src: url, type:"image", id: id});
         i = i + unitFrame;
