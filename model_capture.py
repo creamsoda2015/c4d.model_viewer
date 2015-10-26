@@ -100,7 +100,7 @@ def main():
             elif SAVE_FILE_TYPE == c4d.FILTER_PNG:
                 bmp.AddChannel(1,0)
                 filename = os.path.join(img_save_dir, SAVE_FILE_PREFIX + str(degree).zfill(SAVE_FILE_ZERO_FILL_DIGIT) + '.png')
-                ret      = bmp.Save(filename, c4d.FILTER_JPG, rd, c4d.SAVEBIT_ALPHA)
+                ret      = bmp.Save(filename, c4d.FILTER_PNG, rd, c4d.SAVEBIT_ALPHA)
             else:
                 c4d.gui.MessageDialog('save file type not supported')
                 return
