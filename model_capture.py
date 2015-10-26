@@ -113,6 +113,9 @@ def main():
             else:
                 print filename + ' export failed !'
                 break
+        else:
+            print 'export error : ' + str(res)
+            return
         
         spend_time = time.clock() - cur_time
 
